@@ -1,0 +1,415 @@
+body{
+    background-image: url(https://cdn.ytechb.com/wp-content/uploads/2023/02/OnePlus-11R-Wallpaper.webp);
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+} 
+.cont{
+    /* position:absolute;
+    top:200px;
+    left:100px;
+    right:100px; */
+    margin:50px 0px 0px 0px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    gap:10px;
+    z-index:-1;
+}
+.del{
+    margin:20px;
+}
+.del1{
+    background-color:red;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani2;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.del2{
+    background-color: white;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani1;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.del3{
+    background-color:red;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani2;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.del4{
+    background-color:white;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani1;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.del5{
+    background-color:red;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani2;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.del6{
+    background-color:white;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani1;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.del7{
+    background-color:red;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani2;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.del8{
+    background-color:white;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani1;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.del9{
+    background-color:red;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    animation-name: ani2;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.del10{
+    background-color:white;
+    z-index:-1;
+    border:5px solid black;
+    overflow:auto;
+    justify-self: center;
+    animation-name: ani1;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.c1{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0cap;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+@keyframes ani1{
+    0%{
+        background-color: white;
+        color:red;
+    }
+    25%{
+        background-color: red;
+        color:white;
+    }
+    50%{
+        background-color:white;
+        color:red
+    }
+    75%{
+        background-color: red;
+        color:white;
+    }
+    100%{
+        background-color: red;
+        color:white;
+    }
+}
+@keyframes ani2{
+    0%{
+        background-color: red;
+        color:white;
+    }
+    25%{
+        background-color: white;
+        color:red;
+    }
+    50%{
+        background-color:red;
+        color:white;
+    }
+    75%{
+        background-color: white;
+        color:red;
+    }
+    100%{
+        background-color: white;
+        color:red;
+    }
+}
+.a1{
+    display:inline;
+    font-size:60px;
+    font-family: 'Tilt Prism', cursive;
+    color:Red;
+
+}
+.a2{
+    display:inline;
+    font-size:40px;
+    font-family: 'Tilt Prism', cursive;
+    color:white;
+}
+.a3{
+    display:inline;
+    font-size:35px;
+    color:white;
+    background-color: black;
+}
+.i1{
+    position:absolute;
+    top:0px;
+    left:1300px;
+}
+.v1{
+    margin:50px 10px 0px 900px;
+}
+.id2{
+    position:absolute;
+    top:0px;
+    left:700px;
+    display:inline-block;
+    height:50px;
+    width:100px;
+    background-color: white;
+    border:2px solid red;
+    border-radius:10px;
+}
+.id2:hover{
+    position:absolute;
+    top:0px;
+    left:700px;
+    display:inline-block;
+    height:50px;
+    width:100px;
+    background-color: red;
+    border:2px solid white;
+    border-radius:10px;
+}
+.id4{
+    margin:0px;
+    color:red;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:15px;
+    border-radius:10px;
+}
+.id4:hover{
+    margin:0px;
+    color:white;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:15px;
+}
+.id5{
+    position:absolute;
+    top:0px;
+    left:850px;
+    display:inline-block;
+    height:50px;
+    width:100px;
+    background-color: red;
+    border:2px solid white;
+    border-radius:10px;
+}
+.id5:hover{
+    position:absolute;
+    top:0px;
+    left:850px;
+    display:inline-block;
+    height:50px;
+    width:100px;
+    background-color: white;
+    border:2px solid red;
+    border-radius:10px;
+}
+.id8{
+    margin:0px;
+    color:white;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:15px;
+    border-radius:10px;
+}
+.id8:hover{
+    margin:0px;
+    color:red;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:15px;
+    border-radius:10px;
+}
+.b1{
+    /* position:absolute;
+    top:200px;
+    left:20px; */
+    clip-path: polygon(
+        25% 0%,75% 0%,100% 50%,
+        75% 100%,25% 100%,0% 500%
+    );
+}
+.view1{
+    position:absolute;
+    top:1500px;
+    left:1100px;
+    display:inline-block;
+    border: 5px solid red;
+    background-color: white;
+    width:250px;
+    z-index:-1;
+    
+}
+.view2{
+    color:red;
+}
+.view3{
+    color:red;
+}
+.view4{
+    color:red;
+}
+/* .ad1{
+    margin: 0px 500px 0px;
+} */
+.ad2{
+    display:inline-block;
+    height:500px;
+    width:350px;
+    background-color:black;
+    color:red;
+    font-size:60px;
+    border:5px dotted red;
+}
+.ad3{
+    display:inline-block;
+    color:white;
+    font-size:45px;
+    font-family: 'Shantell Sans', cursive;
+    margin:0px 1000px 0px 0px;
+    background-color:red;
+    height:150px;
+    width:450px;
+    border:5px solid white;
+}
+.scr1{
+    position:absolute;
+    top:650px;
+    left:1300px;
+    display:inline-block;
+    background-color: black;
+    height:70px;
+    width:160px;
+    border:5px dotted red;
+    animation-name:ani3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+.scr2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size:25px;
+    color:red;
+   
+}
+@keyframes ani3{
+    0%{
+        background-color: white;
+
+    }
+    100%{
+        background-color: black;
+    }
+}
+.i2{
+    position:absolute;
+    top:200px;
+    left:1350px;
+}
+.i3{
+   margin:20px 10px 20px 50px;
+}
+.v2{
+    position:absolute;
+    top:1730px;
+    left:10px;
+}
+form{
+   margin:30px 200px 0px 200px;
+   background-color: black;
+
+}
+.ct1{
+    color:red;
+    font-size: 30px;
+
+}
+p{
+    font-size:20px;
+    font-family: 'Mynerve', cursive;
+}
+.men1{
+    background-color: white;
+    border:10px dotted red;
+    font-size: 70px;
+    margin:10px 400px 10px 400px;
+    color:red;
+}
